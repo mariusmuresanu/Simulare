@@ -19,9 +19,7 @@ public class MainController {
     public TableColumn colEventDate;
     public TableColumn colEventDuration;
     public TableColumn colEventStartingTime;
-    //    public TableColumn colSugarFreeCake;
     public TextField txtEventID;
-//    public CheckBox chkSugarFree;
     public TextField txtEventName;
     public TextField txtEventDate;
     public TextField txtEventDuration;

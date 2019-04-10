@@ -9,7 +9,6 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.cell.PropertyValueFactory?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.CheckBox?>
 <HBox fx:controller="UI.MainController"
       xmlns:fx="http://javafx.com/fxml" alignment="center">
 
@@ -41,11 +40,6 @@
                         <PropertyValueFactory property="startingTime" />
                     </cellValueFactory>
                 </TableColumn>
-<!--                <TableColumn fx:id="colSugarFreeCake" text="Sugar free">-->
-<!--                    <cellValueFactory>-->
-<!--                        <PropertyValueFactory property="sugarFree" />-->
-<!--                    </cellValueFactory>-->
-<!--                </TableColumn>-->
             </columns>
         </TableView>
         <TextField fx:id="txtEventID" promptText="ID"/>
@@ -53,7 +47,6 @@
         <TextField fx:id="txtEventDate" promptText="Dates"/>
         <TextField fx:id="txtEventDuration" promptText="Duration"/>
         <TextField fx:id="txtEventStartingTime" promptText="Starting Time"/>
-<!--        <CheckBox fx:id="chkSugarFree" text="Sugar Free"/>-->
         <Button fx:id="btnAddEvent" text="Add Event" onAction="#btnAddEvent"/>
     </VBox>
 
